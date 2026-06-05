@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solex-premium shoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Solex </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+</ul>
+            <button>Shop now</button>
+            <button onclick="addToCart('Nike Air Max', 3999)">Add to Cart</button>
+            <!--- navvv new ---->
+            <div class="cart">
+    🛒 <span id="cart-count">0</span>
+     </div>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>
+                STEP INTO<br>
+                THE FUTURE
+            </h1>
+            <p>
+                Premium sneakers designed for comfort,
+                performance and style 
+            </p>
+             <div class="hero-btns">
+            <button class="btn1">Shop Now</button>
+            <button class="btn2">Explore</button>
+        </div>
+        </div>
+         <div class="hero-image">
+        <img src="images/shoe.png" alt="">
+    </div>
+
+
+    </section>
+    <section class="brands" id="brands">
+        <h2>Trusted by Top Brands</h2>
+        <div class="brand-container">
+            <div>Nike</div>
+            <div>Adidas</div>
+            <div>Reebok</div>
+            <div>Puma</div>
+            <div>New Balance</div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <h2> Features Collections </h2>
+        <div class="product-grid">
+            <div class="card">
+                <img src="images/shoe.1.png">
+                <h3>Nike Air Max</h3>
+                <p>₹3,999</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="images/shoe.2.png">
+                <h3>Adidas Runner</h3>
+                <p>₹4,499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+            <img src="images/shoe.3.png">
+            <h3>Puma Velocity</h3>
+            <p>₹3,499</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="images/shoe.4.png" >
+            <h3>Jordan Elite</h3>
+            <p>₹5,999</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="images/shoe.5.webp" >
+            <h3>Reebok Pro</h3>
+            <p>₹3,299</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="images/shoe6.png">
+            <h3>Urban Sneaker</h3>
+            <p>₹2,999</p>
+            <button>Buy Now</button>
+        </div>
+
+
+
+
+        </div>
+    </section>
+<section class="features" id="features">
+
+    <h2>Why Choose Us</h2>
+
+    <div class="feature-container">
+
+        <div class="feature-box">
+            <h3>🚚 Free Shipping</h3>
+            <p>Fast and reliable delivery on every order.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🔒 Secure Payment</h3>
+            <p>100% safe and secure payment methods.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>⭐ Premium Quality</h3>
+            <p>Top quality materials for maximum comfort.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🔄 Easy Returns</h3>
+            <p>Simple return and exchange policy.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="trending" id="trending">
+
+    <h2>Trending Collection</h2>
+
+    <div class="trending-grid">
+
+        <div class="trend-card">
+            <img src="images/trend1.png" alt="">
+        </div>
+
+        <div class="trend-card">
+            <img src="images/trend2.png" alt="">
+        </div>
+
+        <div class="trend-card">
+            <img src="images/trend3.png" alt="">
+        </div>
+
+        <div class="trend-card">
+            <img src="images/trend4.png" alt="">
+        </div>
+
+    </div>
+
+</section>
+<!-- Customer Reviews -->
+
+<section class="reviews" id="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-container">
+
+        <div class="review">
+            <p>"Amazing quality shoes! Very comfortable and stylish."</p>
+            <h4>- Rahul</h4>
+        </div>
+
+        <div class="review">
+            <p>"Delivery was fast and product is exactly same as shown."</p>
+            <h4>- Priya</h4>
+        </div>
+
+        <div class="review">
+            <p>"Best website for sneakers. Loved the design and service."</p>
+            <h4>- Aman</h4>
+        </div>
+
+    </div>
+
+</section>
+<!-- Newsletter -->
+
+<section class="newsletter" id="contact">
+
+    <h2>Join Our Newsletter</h2>
+
+    <p>Get latest updates and offers</p>
+
+    <div class="news-box">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </div>
+
+</section>
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+            <h3>SoleX</h3>
+            <p>Premium shoes for modern lifestyle.</p>
+        </div>
+
+        <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#trending">Trending</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+        <div>
+    <h4>Follow Us</h4>
+
+    <a href="https://instagram.com" target="_blank">Instagram</a><br>
+    <a href="https://facebook.com" target="_blank">Facebook</a><br>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+</div>
+
+    </div>
+
+    <p class="copyright">© 2026 SoleX. All Rights Reserved.</p>
+
+</footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
