@@ -119,8 +119,9 @@ min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:100px 8% 0;
-background:radial-gradient(circle at top, #1a1a1a, #0f0f0f);
+padding:120px 8% 0;
+background:linear-gradient(135deg,#2563eb,#1d4ed8,#0f172a);
+overflow:hidden;
 }
 
 .hero-text{
